@@ -18,7 +18,7 @@ class bag {
   float fitness;
 
 
-  void getRandomContent() {
+  void getRandomContent() { //makes random content
 
     for (int i = 0; i < values.size(); i++) {
       int isInBag = floor(random(0, 2));
