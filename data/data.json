@@ -1,0 +1,123 @@
+﻿
+[
+    {
+        "Navn": "kort",
+        "Vaegt": "90",
+        "Kroner": "150"
+    },
+    {
+        "Navn": "kompas",
+        "Vaegt": "130",
+        "Kroner": "35"
+    },
+    {
+        "Navn": "vand",
+        "Vaegt": "1530",
+        "Kroner": "200"
+    },
+    {
+        "Navn": "sandwich",
+        "Vaegt": "500",
+        "Kroner": "160"
+    },
+    {
+        "Navn": "sukker",
+        "Vaegt": "150",
+        "Kroner": "60"
+    },
+    {
+        "Navn": "dåsemad",
+        "Vaegt": "680",
+        "Kroner": "45"
+    },
+    {
+        "Navn": "banan",
+        "Vaegt": "270",
+        "Kroner": "60"
+    },
+    {
+        "Navn": "æble",
+        "Vaegt": "390",
+        "Kroner": "40"
+    },
+    {
+        "Navn": "ost",
+        "Vaegt": "230",
+        "Kroner": "30"
+    },
+    {
+        "Navn": "øl",
+        "Vaegt": "520",
+        "Kroner": "10"
+    },
+    {
+        "Navn": "solcreme",
+        "Vaegt": "110",
+        "Kroner": "70"
+    },
+    {
+        "Navn": "kamera",
+        "Vaegt": "320",
+        "Kroner": "30"
+    },
+    {
+        "Navn": "T-shirt",
+        "Vaegt": "240",
+        "Kroner": "15"
+    },
+    {
+        "Navn": "bukser",
+        "Vaegt": "480",
+        "Kroner": "10"
+    },
+    {
+        "Navn": "paraply",
+        "Vaegt": "730",
+        "Kroner": "40"
+    },
+    {
+        "Navn": "vandtætte bukser",
+        "Vaegt": "420",
+        "Kroner": "70"
+    },
+    {
+        "Navn": "vandtæt overtøj",
+        "Vaegt": "430",
+        "Kroner": "75"
+    },
+    {
+        "Navn": "pung",
+        "Vaegt": "220",
+        "Kroner": "80"
+    },
+    {
+        "Navn": "solbriller",
+        "Vaegt": "70",
+        "Kroner": "20"
+    },
+    {
+        "Navn": "håndklæde",
+        "Vaegt": "180",
+        "Kroner": "12"
+    },
+    {
+        "Navn": "sokker",
+        "Vaegt": "40",
+        "Kroner": "50"
+    },
+    {
+        "Navn": "bog",
+        "Vaegt": "300",
+        "Kroner": "10"
+    },
+    {
+        "Navn": "notesbog",
+        "Vaegt": "900",
+        "Kroner": "1"
+    },
+    {
+        "Navn": "telt",
+        "Vaegt": "2000",
+        "Kroner": "150"
+    }
+]
