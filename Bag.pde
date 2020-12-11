@@ -65,10 +65,10 @@ class bag {
       int weightDiff = maxWeight - bagWeight;
 
       float weightDiffMap = map(weightDiff, 0, 5000, weightDiffInfluence/100, 0);
-      float valueMap = map(bagValue, 0, 1127, 0, valueInfluence/100);
+      float valueMap = map(bagValue, 0, 1150, 0, valueInfluence/100);
 
       fitness = weightDiffMap + valueMap;
-      fitness = fitness*fitness*fitness;
+      fitness = fitness*fitness*fitness*fitness;
     }
   }
 }

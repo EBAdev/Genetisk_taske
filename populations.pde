@@ -50,24 +50,27 @@ void initializeNextGen() {
 }
 
 void mutate(bag mom, bag dad, bag child) {
-  // we set the moms values as natives, and mutate by the dads values
+  // we set the childs values as an crossover by the moms and dads values
 
   for (int l =0; l < mom.currentItems.size(); l++) { // get moms items
-
-    float toBeMutated = random(0, 1);                //roll a dice
-
-    if ( toBeMutated < mutateRate/100) {             //check if item should mutate
-      child.currentItems.set(l, dad.currentItems.get(l)); // dads value
-    } else if (toBeMutated > 0.80 &&  toBeMutated < 0.80 + mutateRate/100) {
-      int roll  = roll();
-      
-    child.currentItems.set(l,roll); //add a chance for random mutation
+    int r = roll();
+    if ( r == 1 ) {             
+      child.currentItems.set(l, dad.currentItems.get(l)); // set as dads value
     } else {
-      child.currentItems.set(l, mom.currentItems.get(l)); // moms value
+      child.currentItems.set(l, mom.currentItems.get(l));
+    }
+
+    float toBeMutated = random(0, 1);     //roll a dice
+    if (toBeMutated < mutateRate/100) { //check if item should mutate
+      if (child.currentItems.get(l) == 1) {
+        child.currentItems.set(l, 0);
+      } else {
+        child.currentItems.set(l, 1);
+
+      }
     }
   }
 }
-
 void nextGen() {
 
   bags.clear();
